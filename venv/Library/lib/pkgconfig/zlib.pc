@@ -1,0 +1,13 @@
+prefix=C:/Users/chait/Udemy Final MLOPS Course/Github action End to End Proj/Dockers Image/venv/Library
+exec_prefix=C:/Users/chait/Udemy Final MLOPS Course/Github action End to End Proj/Dockers Image/venv/Library
+libdir=C:/Users/chait/Udemy Final MLOPS Course/Github action End to End Proj/Dockers Image/venv/Library/lib
+sharedlibdir=C:/Users/chait/Udemy Final MLOPS Course/Github action End to End Proj/Dockers Image/venv/Library/lib
+includedir=C:/Users/chait/Udemy Final MLOPS Course/Github action End to End Proj/Dockers Image/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

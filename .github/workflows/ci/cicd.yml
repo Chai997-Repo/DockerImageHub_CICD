@@ -1,6 +1,7 @@
 name: CI/CD pipeline for flask app
 
 on:
+    workflow_dispatch:
     push:
         branches: [main ]
     pull_request:
